@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Magic</title>
+    <title>Project Euler Testing Page</title>
     <meta name="description" content="Magic">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -14,12 +14,16 @@
 
 <body>
 
+    <script type="text/javascript" src="/jspm_packages/system.js"></script>
+    <script type="text/javascript" src="/config.js"></script>
+
+    <script>
+        System.import('30-Fifth-Digit-Power/fifth-digit-power')
+            .then(function (api) {
+                api.runner();
+            });
+    </script>
 
 
-    <div>Hello, Universe!</div>
-
-
-
-    <script type="text/javascript" src="4/largest_palindrome.js"></script>
 </body>
 </html>
