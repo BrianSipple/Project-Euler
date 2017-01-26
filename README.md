@@ -1,6 +1,8 @@
 Project Euler
 ====================================================================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/BrianSipple/Project-Euler.svg)](https://greenkeeper.io/)
+
 
 Currently, most of these solutions are written in Python because... well... high-precision math. But as it turns out, Project Euler problems are still insanely fun to solve in JavaScript as well -- especially utilizing some of the latest features from ECMAScript 2015 and up.
 
